@@ -1,0 +1,53 @@
+{
+  // Flutter & Dart
+  "dart.flutterSdkPath": null,
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
+
+  // Editor
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+
+  // Analyzer
+  "dart.lineLength": 120,
+  "dart.analysisExcludedFolders": [
+    "build",
+    ".dart_tool",
+    ".pub-cache"
+  ],
+
+  // Hot Reload
+  "dart.flutterHotReloadOnSave": "always",
+  "dart.flutterHotRestartOnSave": "never",
+
+  // iOS Specific
+  "dart.flutterRunAdditionalArgs": [
+    "--no-sound-null-safety"
+  ],
+
+  // Files to exclude from explorer
+  "files.exclude": {
+    "**/.dart_tool": true,
+    "**/.flutter-plugins": true,
+    "**/.flutter-plugins-dependencies": true,
+    "**/.packages": true,
+    "**/build": true
+  },
+
+  // Search exclusions
+  "search.exclude": {
+    "**/build": true,
+    "**/.dart_tool": true,
+    "**/.pub-cache": true
+  }
+}
